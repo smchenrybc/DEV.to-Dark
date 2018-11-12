@@ -1,0 +1,469 @@
+/*
+Variables
+ */
+:root {
+  --black: #0a0a0b;
+  --blue: #55acee;
+  --mint: #66e2d5;
+  --mint-dark: #39e2d0;
+  --mint-light: #93e2da;
+
+  /* grays */
+  --gray-1: #111;
+  --gray-2: #222;
+  --gray-3: #333;
+  --gray-4: #444;
+  --gray-5: #555;
+  --gray-9: #999;
+}
+
+/*
+Page
+ */
+.universal-page-content-wrapper {
+  background-color: var(--gray-2);
+}
+
+/*
+Links
+ */
+.notifications-index .home .articles-list .single-article .content.notification-content a,
+a {
+  color: var(--mint);
+}
+
+/*
+Sign Out
+ */
+.signout_confirm-wrapper {
+  color: white;
+}
+
+/*
+Top Bar
+ */
+.top-bar,
+.top-bar nav {
+  background-color: var(--gray-1);
+}
+.top-bar nav svg {
+  fill: white;
+}
+.top-bar .logo-link svg {
+  fill: black;
+  background-color: white;
+}
+.top-bar .nav-search-form__input {
+  background-color: #DDD;
+}
+.top-bar nav .notifications-icon .notifications-number {
+  background: var(--mint);
+}
+
+/*
+Nav Controls
+ */
+.home .articles-list .on-page-nav-controls a {
+  color: white;
+}
+.home .articles-list .on-page-nav-controls .nav-chronofiter-link.selected {
+  background: var(--mint-light);
+  border: 1px solid var(--mint-dark);
+  box-shadow: 3px 4px 0px var(--mint-dark);
+}
+
+/*
+Widgets
+ */
+.home .articles-list .single-article,
+.home .side-bar .widget,
+.home .side-bar .sidebar-nav .sidebar-profile-snapshot {
+  background-color: var(--gray-1);
+  color: white;
+  border-color: var(--gray-5) !important;
+  box-shadow: 3px 3px 0px var(--gray-4) !important;
+}
+.home .side-bar .widget a,
+.home .side-bar .sidebar-nav a {
+  color: white !important;
+}
+.home .side-bar .sidebar-nav .sidebar-nav-block .sidebar-nav-subheader,
+.home .side-bar .sidebar-nav .sidebar-nav-block .sidebar-nav-element:hover {
+  background: var(--gray-3);
+}
+
+/*
+Widget: Reading List
+ */
+.home .side-bar .sidebar-nav .sidebar-nav-block .sidebar-nav-element.sidebar-nav-readinglist:hover {
+  background: var(--gray-1);
+}
+.home .side-bar .sidebar-nav .sidebar-nav-block .sidebar-nav-element.sidebar-nav-readinglist .sidebar-nav-link:hover {
+  background: var(--mint);
+}
+background: var(--mint-dark);
+.home .side-bar .sidebar-nav .sidebar-nav-block .sidebar-nav-element.sidebar-nav-readinglist .readinglist-sidebar-subcat a:hover {
+}
+
+/*
+Sidebar: Sponsors
+ */
+.home .side-bar .widget .widget-body .sidebar-sponsor .sponsor-tagline {
+  color: var(--gray-9);
+}
+
+/*
+Sidebar: Social
+ */
+.home .side-bar .widget .social-icon {
+  padding-left: 0;
+  margin-left: 0.5em;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+/*
+Sidebar: Tag Filter
+ */
+.home .side-bar .widget .query-filter-button {
+  color: white;
+}
+.home .side-bar .widget .query-filter-button.query-type-filter-button.selected {
+  color: black;
+}
+.home .side-bar .widget .query-filter-button:hover {
+  color: black;
+}
+
+/*
+Widget Buttons
+ */
+.home .side-bar .widget .widget-body .sponsor-footer a,
+.home .side-bar .widget .cta-button {
+  display: inline-block;
+  width: auto;
+  padding: 0.5em 1.0em;
+  background: var(--mint);
+}
+
+/*
+Articles
+ */
+.single-article h3,
+.single-article .tags a {
+  color: white;
+}
+.home .articles-list .single-article.big-article .content-wrapper {
+  background-color: transparent;
+  border-top: none;
+  border-bottom: none;
+}
+.home .articles-list .single-article .tags a,
+.home .articles-list .single-article .tags span {
+  color: white;
+}
+.home .articles-list .article-engagement-count.bookmark-engage {
+  background: var(--mint);
+}
+.home .articles-list .article-engagement-count.bookmark-engage.selected {
+  color: var(--mint);
+}
+
+/*
+Single Post
+ */
+.home .container,
+.home .container .body {
+  color: white;
+  background-color: var(--gray-1);
+}
+.home .container {
+  border-color: var(--gray-5);
+  box-shadow: 3px 3px 0px var(--gray-4);
+}
+.home .container .title h1,
+.home .container .article-collection-wrapper p {
+  color: white;
+}
+.home .container .title h3 .icon-img,
+.home .container .title h3 .icon-img path {
+  fill: white;
+}
+.container .body pre {
+  border-left: 1px solid var(--gray-5);
+}
+
+/*
+Single: Sticky Nav
+ */
+.primary-sticky-nav .primary-sticky-nav-title {
+  color: #CCC;
+}
+.primary-sticky-nav .primary-sticky-nav-title a {
+  color: white;
+}
+.primary-sticky-nav .primary-sticky-nav-element {
+  background-color: var(--gray-1);
+  color: white;
+  border-color: var(--gray-5);
+  box-shadow: 3px 3px 0px var(--gray-4);
+}
+.primary-sticky-nav-author,
+.primary-sticky-nav-author-element {
+  border-color: var(--mint) !important;
+  box-shadow: 3px 3px 0px var(--mint) !important;
+}
+.primary-sticky-nav-author button {
+  background-color: var(--mint) !important;
+}
+.primary-sticky-nav .primary-sticky-nav-element:hover {
+  color: white;
+}
+
+/*
+Single: Author
+ */
+.primary-sticky-nav .primary-sticky-nav-author a {
+  color: white;
+}
+
+/*
+Single: Progress
+ */
+.container .article-collection-wrapper .article-collection a {
+  background: var(--gray-9);
+}
+.container .article-collection-wrapper .article-collection a.current-article {
+  background: var(--gray-4);
+}
+
+/*
+Embed: GitHub
+ */
+.ltag-github-readme-tag .readme-overview,
+.ltag-github-readme-tag .ltag-github-body,
+.ltag-github-readme-tag .gh-btn-container {
+  background-color: white;
+  color: var(--black);
+}
+
+/*
+Embed: Twitter
+ */
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__header .ltag__twitter-tweet__full-name {
+  color: var(--black);
+}
+.home .container blockquote.ltag__twitter-tweet a {
+  color: var(--blue);
+}
+
+/*
+Comments
+ */
+.container .about-the-author {
+  background-color: var(--gray-1);
+}
+.container .about-the-author,
+.container .about-the-author a {
+  color: white;
+}
+.container .about-the-author .main-content .social a .icon-img,
+.comments-container img.icon-image,
+.single-comment-node .reaction-button img,
+.single-comment-node .dropbtn img,
+.single-comment-node .details .icon-img {
+  background-color: #777;
+}
+.comments-container form,
+.single-comment-node .inner-comment {
+  background-color: var(--gray-1);
+  border: 1px solid var(--gray-5);
+}
+.comments-container form .code-of-conduct {
+  color: white;
+}
+.comments-container form input[type="submit"] {
+  background-color: var(--mint);
+}
+.single-comment-node .body p {
+  color: #DDD;
+}
+.single-comment-node .details .comment-username-inner {
+  color: var(--gray-5);
+}
+.comments-container .top-level-actions {
+  color: white;
+}
+.comments-container .top-level-actions a {
+  background: var(--mint);
+}
+
+/*
+Comment: Content
+ */
+div.inner-comment div.body pre {
+  border-left: none;
+}
+
+/*
+Article: Actions
+ */
+.home .container .article-actions {
+  background-color: var(--gray-3);
+  border-color: var(--gray-5) !important;
+  box-shadow: 3px 3px 0px var(--gray-4) !important;
+}
+
+/*
+Footer
+ */
+footer,
+footer .container .inner-footer-container {
+  background-color: var(--gray-3);
+  border: none;
+  box-shadow: none;
+}
+footer .container .inner-footer-container,
+footer .container .inner-footer-container a {
+  color: white;
+}
+
+/*
+Dashboard
+ */
+.dashboard-container .actions .action {
+  background-color: white;
+}
+.dashboard-container .actions .action.active {
+  background: var(--mint);
+}
+.dashboard-container .actions .action:not(.active):hover {
+  background: var(--mint-light);
+}
+.dashboard-container .no-articles {
+  color: white;
+  background: var(--gray-1);
+}
+
+/*
+Settings
+ */
+#page-content.users-edit .user-settings-page h2 {
+  color: white;
+}
+#page-content.users-edit .user-settings-page h2 a {
+  background: var(--mint);
+}
+#page-content.users-edit .user-settings-page .settings-hub .single-settings-tab {
+  color: white;
+}
+#page-content.users-edit .user-settings-page .settings-hub .single-settings-tab.selected {
+  color: black;
+  background: var(--mint);
+}
+#page-content.users-edit .user-settings-page .settings-form {
+  color: white;
+}
+#page-content.users-edit .user-settings-page .settings-form h4 img {
+  background-color: white;
+  border-radius: 3px;
+}
+
+/*
+Key Links
+ */
+#page-content-inner .container.article,
+#page-content-inner .container.article .body {
+  color: white;
+  background-color: var(--gray-1);
+}
+#page-content-inner .container.article {
+  border-color: var(--gray-5) !important;
+  box-shadow: 3px 3px 0px var(--gray-4) !important;
+}
+#page-content-inner .container.article a {
+  color: white;
+}
+#page-content-inner .container.article .social-links img {
+  background-color: white;
+}
+
+/*
+Notifications
+ */
+.user-profile-header .tag-or-query-header-container .notifications-header {
+  color: white;
+}
+.user-profile-header .tag-or-query-header-container .notifications-header img {
+  background-color: white;
+  border-radius: 2px;
+}
+.notifications-index .home .articles-list .single-article .content .notification-new-post {
+  color: white;
+}
+
+/*
+Profile
+ */
+.user-profile-header {
+  background-color: var(--gray-1);
+}
+.user-profile-header .user-metadata-details .user-metadata-details-inner {
+  border-left: 3px solid var(--gray-9);
+}
+.user-profile-header .user-metadata-details .user-metadata-details-inner .value {
+  color: white;
+}
+.index-comments {
+  background-color: var(--gray-1);
+}
+.index-comments .single-comment .comment-title {
+  color: var(--gray-9);
+}
+.index-comments .single-comment .comment-preview {
+  color: white;
+}
+.home .articles-list .article-engagement-count.bookmark-engage:hover {
+  background: var(--mint-dark);
+}
+
+/*
+Profile: Sidebar
+ */
+.home .side-bar .widget header .emoji img {
+  background-color: var(--gray-9);
+  border: 1px solid var(--gray-9);
+  border-radius: 50%;
+}
+
+/*
+Banner Notices
+ */
+#page-content.users-edit #notice,
+#page-content.users-update #notice,
+#page-content.organizations-create #notice,
+#page-content.organizations-update #notice {
+  color: var(--gray-1);
+}
+
+/*
+Chat
+ */
+.chat__channels input {
+  background-color: #DDD;
+}
+.chat__channeltypefilterbutton {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.chat__channeltypefilterbutton--active {
+  background: var(--mint);
+}
+.activechatchannel {
+/*   border: 1px solid #555;
+  box-shadow: 3px 3px 0px #444; */
+}
+.activechatchannel__header {
+  background-color: var(--gray-3);
+}
